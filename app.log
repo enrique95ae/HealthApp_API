@@ -1,0 +1,77 @@
+2024-05-16 14:15:04,808 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-16 14:15:04,808 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-16 14:15:19,705 DEBUG app Thread-1 : Headers: Host: 127.0.0.1:5000
+Sec-Fetch-Site: none
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept-Language: en-US,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+
+
+2024-05-16 14:15:19,707 DEBUG app Thread-1 : Body: b''
+2024-05-16 14:15:19,710 INFO werkzeug Thread-1 : 127.0.0.1 - - [16/May/2024 14:15:19] "GET /foods/ HTTP/1.1" 200 -
+2024-05-16 14:15:19,722 DEBUG app Thread-2 : Headers: Host: 127.0.0.1:5000
+Accept: */*
+Accept-Language: en-US,en-GB;q=0.9,en;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Safari/19618.2.12.11.6 CFNetwork/1496.0.7 Darwin/23.5.0
+
+
+2024-05-16 14:15:19,722 DEBUG app Thread-2 : Body: b''
+2024-05-16 14:15:19,722 ERROR app Thread-2 : Not found error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-16 14:15:19,723 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 14:15:19] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2024-05-16 14:15:19,725 DEBUG app Thread-3 : Headers: Host: 127.0.0.1:5000
+Accept: */*
+Accept-Language: en-US,en-GB;q=0.9,en;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Safari/19618.2.12.11.6 CFNetwork/1496.0.7 Darwin/23.5.0
+
+
+2024-05-16 14:15:19,725 DEBUG app Thread-3 : Body: b''
+2024-05-16 14:15:19,725 ERROR app Thread-3 : Not found error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-16 14:15:19,725 INFO werkzeug Thread-3 : 127.0.0.1 - - [16/May/2024 14:15:19] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2024-05-16 14:15:21,335 DEBUG app Thread-4 : Headers: Host: 127.0.0.1:5000
+Sec-Fetch-Site: none
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Mode: navigate
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept-Language: en-US,en-GB;q=0.9,en;q=0.8
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+
+
+2024-05-16 14:15:21,335 DEBUG app Thread-4 : Body: b''
+2024-05-16 14:15:21,338 INFO werkzeug Thread-4 : 127.0.0.1 - - [16/May/2024 14:15:21] "GET /foods/ HTTP/1.1" 200 -
+2024-05-16 14:15:31,206 DEBUG app Thread-5 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 27fdc2bb-0ecd-4691-bf8d-0191e5334be3
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 14:15:31,206 DEBUG app Thread-5 : Body: b''
+2024-05-16 14:15:31,208 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/May/2024 14:15:31] "GET /foods/ HTTP/1.1" 200 -
+2024-05-16 14:15:42,229 DEBUG app Thread-6 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 1a5fdffa-9649-437c-b855-e31c175ac779
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 249
+
+
+2024-05-16 14:15:42,230 DEBUG app Thread-6 : Body: b'{\n    "Name": "Updated Food Name",\n    "PortionSize": 150,\n    "Calories": 200,\n    "TotalFat": 10,\n    "SaturatedFat": 5,\n    "Sodium": 500,\n    "TotalCarbs": 30,\n    "DietaryFiber": 5,\n    "Sugars": 20,\n    "Proteins": 10,\n    "Cholesterol": 100\n}'
+2024-05-16 14:15:42,231 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/May/2024 14:15:42] "PUT /foods/1 HTTP/1.1" 200 -
