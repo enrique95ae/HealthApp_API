@@ -2,10 +2,12 @@ import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from Foods.foods import foods_bp
+from Users.users import users_bp
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 app.register_blueprint(foods_bp, url_prefix='/foods')
+app.register_blueprint(users_bp, url_prefix='/users')
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.DEBUG,
@@ -32,4 +34,4 @@ def internal_error(error):
     return jsonify({'error': 'Internal Server Error'}), 500
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

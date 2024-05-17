@@ -75,3 +75,197 @@ Content-Length: 249
 
 2024-05-16 14:15:42,230 DEBUG app Thread-6 : Body: b'{\n    "Name": "Updated Food Name",\n    "PortionSize": 150,\n    "Calories": 200,\n    "TotalFat": 10,\n    "SaturatedFat": 5,\n    "Sodium": 500,\n    "TotalCarbs": 30,\n    "DietaryFiber": 5,\n    "Sugars": 20,\n    "Proteins": 10,\n    "Cholesterol": 100\n}'
 2024-05-16 14:15:42,231 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/May/2024 14:15:42] "PUT /foods/1 HTTP/1.1" 200 -
+2024-05-16 18:20:50,129 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-16 18:20:50,129 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-16 18:21:43,954 DEBUG app Thread-1 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 162ecfa1-c747-4279-912e-a32ba12aa2f4
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 18:21:43,955 DEBUG app Thread-1 : Body: b''
+2024-05-16 18:21:43,959 INFO werkzeug Thread-1 : 127.0.0.1 - - [16/May/2024 18:21:43] "GET /foods/ HTTP/1.1" 200 -
+2024-05-16 18:47:16,637 DEBUG app Thread-2 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 14e3b1d2-5394-4337-9f14-edcb65153662
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 18:47:16,638 DEBUG app Thread-2 : Body: b''
+2024-05-16 18:47:16,641 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 18:47:16] "GET /foods/ HTTP/1.1" 200 -
+2024-05-16 18:53:21,760 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-16 18:53:21,760 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-16 18:53:21,761 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 18:53:21,848 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 18:53:21,859 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 18:54:50,894 DEBUG app Thread-2 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a30b8a5c-22f5-405e-9df5-ea1cf55d0c9d
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 18:54:50,895 DEBUG app Thread-2 : Body: b''
+2024-05-16 18:54:50,898 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 18:54:50] "GET /users/ HTTP/1.1" 200 -
+2024-05-16 18:54:58,988 DEBUG app Thread-3 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: f256672e-35d4-4ebf-96b4-3f410d0bdecd
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 18:54:58,989 DEBUG app Thread-3 : Body: b''
+2024-05-16 18:54:58,990 INFO werkzeug Thread-3 : 127.0.0.1 - - [16/May/2024 18:54:58] "GET /users/ HTTP/1.1" 200 -
+2024-05-16 18:55:59,490 DEBUG app Thread-4 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 87072555-a834-437f-be10-530f8876dc42
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 18:55:59,491 DEBUG app Thread-4 : Body: b''
+2024-05-16 18:55:59,493 INFO werkzeug Thread-4 : 127.0.0.1 - - [16/May/2024 18:55:59] "[33mGET /users/1 HTTP/1.1[0m" 404 -
+2024-05-16 18:58:31,835 INFO werkzeug MainThread :  * Detected change in '/Users/enriquealonsoesposito/Desktop/Programming/Python/HAA/Users/users.py', reloading
+2024-05-16 18:58:31,863 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 18:58:32,004 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 18:58:32,008 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 18:58:43,108 INFO werkzeug MainThread :  * Detected change in '/Users/enriquealonsoesposito/Desktop/Programming/Python/HAA/app.py', reloading
+2024-05-16 18:58:43,123 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 18:58:43,254 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 18:58:43,258 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 18:59:05,466 INFO werkzeug MainThread :  * Detected change in '/Users/enriquealonsoesposito/Desktop/Programming/Python/HAA/Users/users.py', reloading
+2024-05-16 18:59:05,490 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 18:59:05,627 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 18:59:05,630 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 18:59:21,773 INFO werkzeug MainThread :  * Detected change in '/Users/enriquealonsoesposito/Desktop/Programming/Python/HAA/Users/usersQueries.py', reloading
+2024-05-16 18:59:21,790 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 18:59:21,890 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 18:59:21,893 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 19:00:45,717 DEBUG app Thread-2 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 64297110-c102-41bb-ab35-559c75a830e0
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 207
+
+
+2024-05-16 19:00:45,718 DEBUG app Thread-2 : Body: b'{\n    "Name": "Enrique",\n    "DoB": "1995-09-06",\n    "Weight": 93,\n    "Height": 188,\n    "BodyType": "Endomorph",\n    "Goal": "Lose weight",\n    "Username": "enrique95ae",\n    "Password": "Password123!"\n}\n'
+2024-05-16 19:00:45,739 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 19:00:45] "[35m[1mPUT /users/1 HTTP/1.1[0m" 500 -
+2024-05-16 19:00:54,762 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-16 19:00:54,763 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-16 19:00:54,764 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 19:00:54,850 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 19:00:54,855 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 19:00:57,559 DEBUG app Thread-2 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 268e5507-2efc-404d-8b71-4cc4baf6113e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 207
+
+
+2024-05-16 19:00:57,559 DEBUG app Thread-2 : Body: b'{\n    "Name": "Enrique",\n    "DoB": "1995-09-06",\n    "Weight": 93,\n    "Height": 188,\n    "BodyType": "Endomorph",\n    "Goal": "Lose weight",\n    "Username": "enrique95ae",\n    "Password": "Password123!"\n}\n'
+2024-05-16 19:00:57,568 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 19:00:57] "[35m[1mPUT /users/1 HTTP/1.1[0m" 500 -
+2024-05-16 19:01:45,264 INFO werkzeug MainThread :  * Detected change in '/Users/enriquealonsoesposito/Desktop/Programming/Python/HAA/Users/users.py', reloading
+2024-05-16 19:01:45,286 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 19:01:45,429 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 19:01:45,434 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 19:01:54,942 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-16 19:01:54,943 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-16 19:01:54,943 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-16 19:01:55,027 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-16 19:01:55,032 INFO werkzeug MainThread :  * Debugger PIN: 498-897-377
+2024-05-16 19:01:58,705 DEBUG app Thread-2 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6d060337-2463-4a20-89c8-39d275175dd5
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 207
+
+
+2024-05-16 19:01:58,706 DEBUG app Thread-2 : Body: b'{\n    "Name": "Enrique",\n    "DoB": "1995-09-06",\n    "Weight": 93,\n    "Height": 188,\n    "BodyType": "Endomorph",\n    "Goal": "Lose weight",\n    "Username": "enrique95ae",\n    "Password": "Password123!"\n}\n'
+2024-05-16 19:01:58,901 INFO werkzeug Thread-2 : 127.0.0.1 - - [16/May/2024 19:01:58] "PUT /users/1 HTTP/1.1" 200 -
+2024-05-16 19:02:02,036 DEBUG app Thread-3 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 511cb081-9a55-471d-ba30-170c528121c1
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 19:02:02,038 DEBUG app Thread-3 : Body: b''
+2024-05-16 19:02:02,040 INFO werkzeug Thread-3 : 127.0.0.1 - - [16/May/2024 19:02:02] "GET /users/ HTTP/1.1" 200 -
+2024-05-16 19:02:10,089 DEBUG app Thread-4 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 962f85ef-a064-44dc-800f-e6345829e852
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 19:02:10,090 DEBUG app Thread-4 : Body: b''
+2024-05-16 19:02:10,091 INFO werkzeug Thread-4 : 127.0.0.1 - - [16/May/2024 19:02:10] "[33mGET /users/1 HTTP/1.1[0m" 404 -
+2024-05-16 19:02:11,111 DEBUG app Thread-5 : Headers: User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: a0235052-3c7b-4a87-876e-027792f885e5
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+
+2024-05-16 19:02:11,111 DEBUG app Thread-5 : Body: b''
+2024-05-16 19:02:11,112 INFO werkzeug Thread-5 : 127.0.0.1 - - [16/May/2024 19:02:11] "[33mGET /users/1 HTTP/1.1[0m" 404 -
+2024-05-16 19:04:48,802 DEBUG app Thread-6 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 2b34df80-1f86-40c7-92c2-349a83ab1cdd
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 207
+
+
+2024-05-16 19:04:48,803 DEBUG app Thread-6 : Body: b'{\n    "Name": "Enrique",\n    "DoB": "1995-09-06",\n    "Weight": 93,\n    "Height": 188,\n    "BodyType": "Endomorph",\n    "Goal": "Lose weight",\n    "Username": "enrique95ae",\n    "Password": "Password123!"\n}\n'
+2024-05-16 19:04:49,006 INFO werkzeug Thread-6 : 127.0.0.1 - - [16/May/2024 19:04:49] "[35m[1mPOST /users/ HTTP/1.1[0m" 201 -
+2024-05-16 19:05:23,301 DEBUG app Thread-7 : Headers: Content-Type: application/json
+User-Agent: PostmanRuntime/7.37.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 98409f98-3012-4266-ba76-465b8aeb523e
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 207
+
+
+2024-05-16 19:05:23,301 DEBUG app Thread-7 : Body: b'{\n    "Name": "Enrique",\n    "DoB": "1995-09-06",\n    "Weight": 93,\n    "Height": 188,\n    "BodyType": "Ectomorph",\n    "Goal": "Lose weight",\n    "Username": "enrique95ae",\n    "Password": "Password123!"\n}\n'
+2024-05-16 19:05:23,497 INFO werkzeug Thread-7 : 127.0.0.1 - - [16/May/2024 19:05:23] "PUT /users/1 HTTP/1.1" 200 -
