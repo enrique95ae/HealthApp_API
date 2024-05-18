@@ -2,7 +2,8 @@ from flask import Blueprint, request, jsonify
 import sqlite3
 from Foods.foodsQueries import (
     CREATE_FOODS_TABLE, SELECT_ALL_FOODS, SELECT_FOOD_BY_ID,
-    SELECT_FOOD_BY_NAME, INSERT_FOOD, CHECK_DUPLICATE_FOOD, UPDATE_FOOD_BY_ID
+    SELECT_FOOD_BY_NAME, INSERT_FOOD, CHECK_DUPLICATE_FOOD, UPDATE_FOOD_BY_ID,
+    SEARCH_FOODS_BY_NAME
 )
 
 foods_bp = Blueprint('foods', __name__)
@@ -41,12 +42,12 @@ def get_foods():
             'Calories': row[3],
             'TotalFat': row[4],
             'SaturatedFat': row[5],
-            'Sodium': row[6],  # No conversion needed, stored in g
+            'Sodium': row[6],
             'TotalCarbs': row[7],
             'DietaryFiber': row[8],
             'Sugars': row[9],
             'Proteins': row[10],
-            'Cholesterol': row[11]  # No conversion needed, stored in g
+            'Cholesterol': row[11]
         }
         foods.append(food)
     
@@ -85,12 +86,12 @@ def get_food_by_id(id):
             'Calories': row[3],
             'TotalFat': row[4],
             'SaturatedFat': row[5],
-            'Sodium': row[6],  # No conversion needed, stored in g
+            'Sodium': row[6],
             'TotalCarbs': row[7],
             'DietaryFiber': row[8],
             'Sugars': row[9],
             'Proteins': row[10],
-            'Cholesterol': row[11]  # No conversion needed, stored in g
+            'Cholesterol': row[11]
         }
         return jsonify(food)
     else:
@@ -109,12 +110,12 @@ def get_food_by_name(name):
                 'Calories': row[3],
                 'TotalFat': row[4],
                 'SaturatedFat': row[5],
-                'Sodium': row[6],  # No conversion needed, stored in g
+                'Sodium': row[6],
                 'TotalCarbs': row[7],
                 'DietaryFiber': row[8],
                 'Sugars': row[9],
                 'Proteins': row[10],
-                'Cholesterol': row[11]  # No conversion needed, stored in g
+                'Cholesterol': row[11]
             }
             foods.append(food)
         return jsonify(foods)
@@ -135,6 +136,17 @@ def update_food_by_id(id):
         data['Sugars'], data['Proteins'], cholesterol_in_g, id
     ))
     return jsonify({"message": "Food updated successfully!"}), 200
+
+@foods_bp.route('/search', methods=['GET'])
+def search_foods():
+    query = request.args.get('q', '')
+    if query:
+        search_term = f"%{query}%"
+        rows = fetch_query(SEARCH_FOODS_BY_NAME, (search_term,))
+        results = [{'Id': row[0], 'Name': row[1]} for row in rows]
+        return jsonify(results)
+    else:
+        return jsonify({"message": "No search query provided"}), 400
 
 # Initialize the database when the module is imported
 initialize_database()

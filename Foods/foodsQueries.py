@@ -36,3 +36,9 @@ UPDATE FOODS SET
 WHERE Id = ?;
 '''
 
+SEARCH_FOODS_BY_NAME = """
+SELECT Id, Name FROM FOODS
+WHERE Name LIKE ?;
+"""
+
+
