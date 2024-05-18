@@ -100,5 +100,37 @@ def update_user_by_id(id):
     ))
     return jsonify({"message": "User updated successfully!"}), 200
 
+@users_bp.route('/login', methods=['POST'])
+def login_user():
+    data = request.get_json()
+    
+    if not data or 'Username' not in data or 'Password' not in data:
+        return jsonify({"error": "Username and Password are required"}), 400
+
+    username = data['Username']
+    password = data['Password']
+
+    # Fetch user by username
+    user = fetch_query(SELECT_USER_BY_USERNAME, (username,))
+    if not user:
+        return jsonify({"error": "Invalid username or password"}), 401
+
+    user = user[0]
+    # Check the password
+    if check_password_hash(user[8], password):  # Assuming password is the 9th column
+        user_data = {
+            'Id': user[0],
+            'Name': user[1],
+            'DoB': user[2],
+            'Weight': user[3],
+            'Height': user[4],
+            'BodyType': user[5],
+            'Goal': user[6],
+            'Username': user[7]
+        }
+        return jsonify(user_data)
+    else:
+        return jsonify({"error": "Invalid username or password"}), 401
+
 # Initialize the database when the module is imported
 initialize_database()
