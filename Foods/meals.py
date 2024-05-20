@@ -37,8 +37,12 @@ def add_usr_meal():
     data = request.get_json()
     user_id = data['USER_Id']
     creation_date = datetime.now().strftime("%Y-%m-%d")
-    creation_time = datetime.now().strftime("%I:%M %p").split(' ')[0]
-    hour_period = datetime.now().strftime("%I:%M %p").split(' ')[1]
+    creation_time_period = data['CreationTime']
+    
+    # Parse the time and period from the provided string
+    creation_time = datetime.strptime(creation_time_period, "%I:%M%p").strftime("%I:%M")
+    hour_period = datetime.strptime(creation_time_period, "%I:%M%p").strftime("%p")
+
     title = data['Title']
     score = data['Score']
 
@@ -68,6 +72,8 @@ def get_meals_today(user_id):
     meals_list = []
     for meal in meals:
         meal_id, creation_date, creation_time, hour_period, title, score = meal
+        # Format CreationTime to include HourPeriod
+        formatted_creation_time = f"{creation_time} {hour_period}"
         # Fetch foods for each meal
         foods = fetch_query(SELECT_FOODS_BY_MEAL, (meal_id,))
         print(f"Foods for meal {meal_id}: {foods}")  # Debug print
@@ -94,8 +100,7 @@ def get_meals_today(user_id):
         meal_item = {
             'Id': meal_id,
             'CreationDate': creation_date,
-            'CreationTime': creation_time,
-            'HourPeriod': hour_period,
+            'CreationTime': formatted_creation_time,
             'Title': title,
             'Score': score,
             'Foods': foods_list
