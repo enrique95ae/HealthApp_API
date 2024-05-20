@@ -14,7 +14,9 @@ def execute_query(query, args=()):
     cur = conn.cursor()
     cur.execute(query, args)
     conn.commit()
+    last_row_id = cur.lastrowid
     conn.close()
+    return last_row_id
 
 # Function to fetch data from the database
 def fetch_query(query, args=()):
@@ -40,9 +42,9 @@ def add_usr_meal():
     title = data['Title']
     score = data['Score']
 
-    execute_query("INSERT INTO USR_MEAL (USER_Id, CreationDate, CreationTime, HourPeriod, Title, Score) VALUES (?, ?, ?, ?, ?, ?)",
-                  (user_id, creation_date, creation_time, hour_period, title, score))
-    return jsonify({"message": "User meal added successfully!"}), 201
+    meal_id = execute_query("INSERT INTO USR_MEAL (USER_Id, CreationDate, CreationTime, HourPeriod, Title, Score) VALUES (?, ?, ?, ?, ?, ?)",
+                            (user_id, creation_date, creation_time, hour_period, title, score))
+    return jsonify({"message": "User meal added successfully!", "Id": meal_id}), 201
 
 @meals_bp.route('/meal_foods', methods=['POST'])
 def add_meal_food():
