@@ -35,3 +35,8 @@ FROM MEAL_FOODS
 JOIN FOODS ON MEAL_FOODS.FOODS_ID = FOODS.Id
 WHERE MEAL_FOODS.USR_MEAL_ID = ?;
 """
+
+SELECT_MEAL_BY_ID = """
+SELECT Id, USER_Id, CreationDate, CreationTime, HourPeriod, Title, Score FROM USR_MEAL
+WHERE Id = ?;
+"""

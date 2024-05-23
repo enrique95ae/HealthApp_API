@@ -1,9 +1,11 @@
 from flask import Blueprint, request, jsonify
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
+from datetime import datetime
 from Users.usersQueries import (
     CREATE_USERS_TABLE, SELECT_ALL_USERS, SELECT_USER_BY_ID,
-    SELECT_USER_BY_USERNAME, INSERT_USER, UPDATE_USER_BY_ID
+    SELECT_USER_BY_USERNAME, INSERT_USER, UPDATE_USER_BY_ID,
+    CREATE_USER_WEIGHT_TABLE, INSERT_USER_WEIGHT, SELECT_USER_WEIGHTS, CHECK_TODAYS_WEIGHT_ENTRY
 )
 
 users_bp = Blueprint('users', __name__)
@@ -28,6 +30,7 @@ def fetch_query(query, args=()):
 # Initialize the database
 def initialize_database():
     execute_query(CREATE_USERS_TABLE)
+    execute_query(CREATE_USER_WEIGHT_TABLE)
 
 @users_bp.route('/', methods=['GET'])
 def get_users():
@@ -131,6 +134,38 @@ def login_user():
         return jsonify(user_data)
     else:
         return jsonify({"error": "Invalid username or password"}), 401
+
+# Weight-related endpoints
+@users_bp.route('/weights', methods=['POST'])
+def add_user_weight():
+    data = request.get_json()
+    user_id = data['USER_Id']
+    weight = data['Weight']
+    entry_date = datetime.now().strftime("%Y-%m-%d")
+
+    execute_query(INSERT_USER_WEIGHT, (user_id, entry_date, weight))
+    return jsonify({"message": "Weight entry added successfully!"}), 201
+
+@users_bp.route('/weights/<int:user_id>', methods=['GET'])
+def get_user_weights(user_id):
+    weights = fetch_query(SELECT_USER_WEIGHTS, (user_id,))
+    weight_list = []
+    for weight in weights:
+        weight_item = {
+            'Id': weight[0],
+            'USER_Id': weight[1],
+            'EntryDate': weight[2],
+            'Weight': weight[3]
+        }
+        weight_list.append(weight_item)
+    return jsonify(weight_list)
+
+@users_bp.route('/weights/today/<int:user_id>', methods=['GET'])
+def check_weight_today(user_id):
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    result = fetch_query(CHECK_TODAYS_WEIGHT_ENTRY, (user_id, today_date))
+    weight_entered = result[0][0] > 0
+    return jsonify({"date": today_date, "weight_entered": weight_entered})
 
 # Initialize the database when the module is imported
 initialize_database()
