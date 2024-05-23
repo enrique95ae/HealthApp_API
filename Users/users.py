@@ -5,7 +5,7 @@ from datetime import datetime
 from Users.usersQueries import (
     CREATE_USERS_TABLE, SELECT_ALL_USERS, SELECT_USER_BY_ID,
     SELECT_USER_BY_USERNAME, INSERT_USER, UPDATE_USER_BY_ID,
-    CREATE_USER_WEIGHT_TABLE, INSERT_USER_WEIGHT, SELECT_USER_WEIGHTS, CHECK_TODAYS_WEIGHT_ENTRY
+    CREATE_USER_WEIGHT_TABLE, INSERT_USER_WEIGHT, SELECT_USER_WEIGHTS, CHECK_TODAYS_WEIGHT_ENTRY, UPDATE_USER_WEIGHT
 )
 
 users_bp = Blueprint('users', __name__)
@@ -144,6 +144,8 @@ def add_user_weight():
     entry_date = datetime.now().strftime("%Y-%m-%d")
 
     execute_query(INSERT_USER_WEIGHT, (user_id, entry_date, weight))
+    execute_query(UPDATE_USER_WEIGHT, (weight, user_id))  # Update user's weight in USERS table
+
     return jsonify({"message": "Weight entry added successfully!"}), 201
 
 @users_bp.route('/weights/<int:user_id>', methods=['GET'])
