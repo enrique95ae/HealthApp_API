@@ -20,9 +20,7 @@ INSERT INTO USERS (Name, DoB, Weight, Height, BodyType, Goal, Username, Password
 VALUES (?, ?, ?, ?, ?, ?, ?, ?);
 """
 UPDATE_USER_BY_ID = """
-UPDATE USERS SET
-    Name = ?, DoB = ?, Weight = ?, Height = ?, BodyType = ?, Goal = ?, Username = ?, Password = ?
-WHERE Id = ?;
+UPDATE USERS SET Name = ?, DoB = ?, Weight = ?, Height = ?, BodyType = ?, Goal = ? WHERE Id = ?;
 """
 # Existing queries...
 

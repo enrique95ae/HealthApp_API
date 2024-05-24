@@ -94,14 +94,28 @@ def get_user_by_id(id):
 def update_user_by_id(id):
     data = request.get_json()
 
-    # Hash the password before storing
-    hashed_password = generate_password_hash(data['Password'], method='pbkdf2:sha256')
-
     execute_query(UPDATE_USER_BY_ID, (
         data['Name'], data['DoB'], data['Weight'], data['Height'],
-        data['BodyType'], data['Goal'], data['Username'], hashed_password, id
+        data['BodyType'], data['Goal'], id
     ))
-    return jsonify({"message": "User updated successfully!"}), 200
+    
+    # Fetch the updated user details
+    rows = fetch_query(SELECT_USER_BY_ID, (id,))
+    if rows:
+        row = rows[0]
+        updated_user = {
+            'Id': row[0],
+            'Name': row[1],
+            'DoB': row[2],
+            'Weight': row[3],
+            'Height': row[4],
+            'BodyType': row[5],
+            'Goal': row[6],
+            'Username': row[7]
+        }
+        return jsonify(updated_user), 200
+    else:
+        return jsonify({"message": "User not found"}), 404
 
 @users_bp.route('/login', methods=['POST'])
 def login_user():
