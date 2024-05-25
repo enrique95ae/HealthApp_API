@@ -106,6 +106,7 @@ def update_user_by_id(id):
     if rows:
         row = rows[0]
         updated_user = {
+            'Id': row[0],
             'Name': row[1],
             'DoB': row[2],
             'Weight': row[3],
