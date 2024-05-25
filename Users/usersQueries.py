@@ -1,6 +1,6 @@
 CREATE_USERS_TABLE = """
 CREATE TABLE IF NOT EXISTS USERS (
-    Id INTEGER PRIMARY KEY,
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
     Name TEXT NOT NULL,
     DoB TEXT NOT NULL,
     Weight REAL NOT NULL,
@@ -8,7 +8,8 @@ CREATE TABLE IF NOT EXISTS USERS (
     BodyType TEXT NOT NULL,
     Goal TEXT NOT NULL,
     Username TEXT NOT NULL UNIQUE,
-    Password TEXT NOT NULL
+    Password TEXT NOT NULL,
+    Gender TEXT NOT NULL
 );
 """
 
@@ -16,15 +17,13 @@ SELECT_ALL_USERS = "SELECT * FROM USERS;"
 SELECT_USER_BY_ID = "SELECT * FROM USERS WHERE Id = ?;"
 SELECT_USER_BY_USERNAME = "SELECT * FROM USERS WHERE Username = ?;"
 INSERT_USER = """
-INSERT INTO USERS (Name, DoB, Weight, Height, BodyType, Goal, Username, Password)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+INSERT INTO USERS (Name, DoB, Weight, Height, BodyType, Goal, Username, Password, Gender)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);
 """
 UPDATE_USER_BY_ID = """
-UPDATE USERS SET Name = ?, DoB = ?, Weight = ?, Height = ?, BodyType = ?, Goal = ? WHERE Id = ?;
+UPDATE USERS SET Name = ?, DoB = ?, Weight = ?, Height = ?, BodyType = ?, Goal = ?, Gender = ? WHERE Id = ?;
 """
-# Existing queries...
 
-# Add new queries for weights
 CREATE_USER_WEIGHT_TABLE = """
 CREATE TABLE IF NOT EXISTS USER_WEIGHT (
     Id INTEGER PRIMARY KEY AUTOINCREMENT,

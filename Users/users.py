@@ -46,7 +46,8 @@ def get_users():
             'Height': row[4],
             'BodyType': row[5],
             'Goal': row[6],
-            'Username': row[7]
+            'Username': row[7],
+            'Gender': row[9]
         }
         users.append(user)
     
@@ -67,7 +68,7 @@ def add_user():
 
     execute_query(INSERT_USER, (
         data['Name'], data['DoB'], data['Weight'], data['Height'],
-        data['BodyType'], data['Goal'], username, hashed_password
+        data['BodyType'], data['Goal'], username, hashed_password, data['Gender']
     ))
     return jsonify({"message": "User added successfully!"}), 201
 
@@ -84,7 +85,8 @@ def get_user_by_id(id):
             'Height': row[4],
             'BodyType': row[5],
             'Goal': row[6],
-            'Username': row[7]
+            'Username': row[7],
+            'Gender': row[9]
         }
         return jsonify(user)
     else:
@@ -96,7 +98,7 @@ def update_user_by_id(id):
 
     execute_query(UPDATE_USER_BY_ID, (
         data['Name'], data['DoB'], data['Weight'], data['Height'],
-        data['BodyType'], data['Goal'], id
+        data['BodyType'], data['Goal'], data['Gender'], id
     ))
     
     # Fetch the updated user details
@@ -104,14 +106,14 @@ def update_user_by_id(id):
     if rows:
         row = rows[0]
         updated_user = {
-            'Id': row[0],
             'Name': row[1],
             'DoB': row[2],
             'Weight': row[3],
             'Height': row[4],
             'BodyType': row[5],
             'Goal': row[6],
-            'Username': row[7]
+            'Username': row[7],
+            'Gender': row[9]
         }
         return jsonify(updated_user), 200
     else:
@@ -143,7 +145,8 @@ def login_user():
             'Height': user[4],
             'BodyType': user[5],
             'Goal': user[6],
-            'Username': user[7]
+            'Username': user[7],
+            'Gender': user[9]
         }
         return jsonify(user_data)
     else:
