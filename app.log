@@ -43749,3 +43749,3328 @@ Accept-Encoding: gzip, deflate, br, zstd
 2024-05-25 20:03:09,038 INFO werkzeug Thread-41 : 127.0.0.1 - - [25/May/2024 20:03:09] "GET /users/weights/today/1 HTTP/1.1" 200 -
 2024-05-25 20:03:09,039 INFO werkzeug Thread-42 : 127.0.0.1 - - [25/May/2024 20:03:09] "GET /users/weights/1 HTTP/1.1" 200 -
 2024-05-25 20:03:09,042 INFO werkzeug Thread-43 : 127.0.0.1 - - [25/May/2024 20:03:09] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:13:12,294 DEBUG app Thread-45 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:12,295 DEBUG app Thread-44 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:12,295 DEBUG app Thread-45 : Body: b''
+2024-05-25 20:13:12,295 DEBUG app Thread-46 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:12,295 DEBUG app Thread-44 : Body: b''
+2024-05-25 20:13:12,295 DEBUG app Thread-46 : Body: b''
+2024-05-25 20:13:12,296 INFO werkzeug Thread-45 : 127.0.0.1 - - [25/May/2024 20:13:12] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:13:12,297 INFO werkzeug Thread-44 : 127.0.0.1 - - [25/May/2024 20:13:12] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:13:12,301 INFO werkzeug Thread-46 : 127.0.0.1 - - [25/May/2024 20:13:12] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:13:57,500 DEBUG app Thread-47 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:57,501 DEBUG app Thread-48 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:57,501 DEBUG app Thread-47 : Body: b''
+2024-05-25 20:13:57,501 DEBUG app Thread-48 : Body: b''
+2024-05-25 20:13:57,501 DEBUG app Thread-49 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:13:57,501 DEBUG app Thread-49 : Body: b''
+2024-05-25 20:13:57,502 INFO werkzeug Thread-47 : 127.0.0.1 - - [25/May/2024 20:13:57] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:13:57,502 INFO werkzeug Thread-48 : 127.0.0.1 - - [25/May/2024 20:13:57] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:13:57,503 INFO werkzeug Thread-49 : 127.0.0.1 - - [25/May/2024 20:13:57] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:14:23,960 DEBUG app Thread-50 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:23,960 DEBUG app Thread-52 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:23,960 DEBUG app Thread-51 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:23,960 DEBUG app Thread-50 : Body: b''
+2024-05-25 20:14:23,961 DEBUG app Thread-52 : Body: b''
+2024-05-25 20:14:23,961 DEBUG app Thread-53 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:23,961 DEBUG app Thread-51 : Body: b''
+2024-05-25 20:14:23,961 DEBUG app Thread-53 : Body: b''
+2024-05-25 20:14:23,961 INFO werkzeug Thread-50 : 127.0.0.1 - - [25/May/2024 20:14:23] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:14:23,962 INFO werkzeug Thread-52 : 127.0.0.1 - - [25/May/2024 20:14:23] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:14:23,962 INFO werkzeug Thread-51 : 127.0.0.1 - - [25/May/2024 20:14:23] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:14:23,963 INFO werkzeug Thread-53 : 127.0.0.1 - - [25/May/2024 20:14:23] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:14:58,757 DEBUG app Thread-54 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:4200
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+
+2024-05-25 20:14:58,758 DEBUG app Thread-54 : Body: b''
+2024-05-25 20:14:58,759 INFO werkzeug Thread-54 : 127.0.0.1 - - [25/May/2024 20:14:58] "OPTIONS /users/login HTTP/1.1" 200 -
+2024-05-25 20:14:58,761 DEBUG app Thread-55 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Content-Length: 52
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+Sec-Ch-Ua-Platform: "Android"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:58,761 DEBUG app Thread-55 : Body: b'{"Username":"enrique95ae","Password":"Password123!"}'
+2024-05-25 20:14:58,963 INFO werkzeug Thread-55 : 127.0.0.1 - - [25/May/2024 20:14:58] "POST /users/login HTTP/1.1" 200 -
+2024-05-25 20:14:58,975 DEBUG app Thread-56 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+Sec-Ch-Ua-Platform: "Android"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:58,975 DEBUG app Thread-56 : Body: b''
+2024-05-25 20:14:58,976 DEBUG app Thread-57 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?1
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+Sec-Ch-Ua-Platform: "Android"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:14:58,976 DEBUG app Thread-57 : Body: b''
+2024-05-25 20:14:58,977 INFO werkzeug Thread-57 : 127.0.0.1 - - [25/May/2024 20:14:58] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:14:58,978 INFO werkzeug Thread-56 : 127.0.0.1 - - [25/May/2024 20:14:58] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:18:55,996 DEBUG app Thread-58 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:18:55,996 DEBUG app Thread-59 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:18:55,996 DEBUG app Thread-58 : Body: b''
+2024-05-25 20:18:55,997 DEBUG app Thread-60 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:18:55,997 DEBUG app Thread-59 : Body: b''
+2024-05-25 20:18:55,997 DEBUG app Thread-61 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:18:55,997 DEBUG app Thread-60 : Body: b''
+2024-05-25 20:18:55,998 DEBUG app Thread-61 : Body: b''
+2024-05-25 20:18:56,000 INFO werkzeug Thread-59 : 127.0.0.1 - - [25/May/2024 20:18:56] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:18:56,001 INFO werkzeug Thread-58 : 127.0.0.1 - - [25/May/2024 20:18:56] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:18:56,002 INFO werkzeug Thread-60 : 127.0.0.1 - - [25/May/2024 20:18:56] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:18:56,003 INFO werkzeug Thread-61 : 127.0.0.1 - - [25/May/2024 20:18:56] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:12,884 DEBUG app Thread-63 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:12,884 DEBUG app Thread-62 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:12,884 DEBUG app Thread-64 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:12,885 DEBUG app Thread-63 : Body: b''
+2024-05-25 20:19:12,885 DEBUG app Thread-65 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:12,885 DEBUG app Thread-66 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:12,885 DEBUG app Thread-62 : Body: b''
+2024-05-25 20:19:12,885 DEBUG app Thread-64 : Body: b''
+2024-05-25 20:19:12,885 DEBUG app Thread-65 : Body: b''
+2024-05-25 20:19:12,885 DEBUG app Thread-66 : Body: b''
+2024-05-25 20:19:12,886 INFO werkzeug Thread-62 : 127.0.0.1 - - [25/May/2024 20:19:12] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:19:12,886 INFO werkzeug Thread-64 : 127.0.0.1 - - [25/May/2024 20:19:12] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:12,892 INFO werkzeug Thread-65 : 127.0.0.1 - - [25/May/2024 20:19:12] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:19:12,894 INFO werkzeug Thread-63 : 127.0.0.1 - - [25/May/2024 20:19:12] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:12,895 INFO werkzeug Thread-66 : 127.0.0.1 - - [25/May/2024 20:19:12] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:23,870 DEBUG app Thread-67 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:23,870 DEBUG app Thread-69 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:23,871 DEBUG app Thread-70 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:23,871 DEBUG app Thread-67 : Body: b''
+2024-05-25 20:19:23,871 DEBUG app Thread-68 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:23,871 DEBUG app Thread-71 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:23,871 DEBUG app Thread-69 : Body: b''
+2024-05-25 20:19:23,871 DEBUG app Thread-70 : Body: b''
+2024-05-25 20:19:23,871 DEBUG app Thread-68 : Body: b''
+2024-05-25 20:19:23,871 DEBUG app Thread-71 : Body: b''
+2024-05-25 20:19:23,872 INFO werkzeug Thread-67 : 127.0.0.1 - - [25/May/2024 20:19:23] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:19:23,872 INFO werkzeug Thread-69 : 127.0.0.1 - - [25/May/2024 20:19:23] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:23,876 INFO werkzeug Thread-70 : 127.0.0.1 - - [25/May/2024 20:19:23] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:19:23,877 INFO werkzeug Thread-68 : 127.0.0.1 - - [25/May/2024 20:19:23] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:23,878 INFO werkzeug Thread-71 : 127.0.0.1 - - [25/May/2024 20:19:23] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:32,881 DEBUG app Thread-72 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:32,881 DEBUG app Thread-73 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:32,881 DEBUG app Thread-72 : Body: b''
+2024-05-25 20:19:32,881 DEBUG app Thread-73 : Body: b''
+2024-05-25 20:19:32,881 DEBUG app Thread-74 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:32,881 DEBUG app Thread-75 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:32,882 DEBUG app Thread-74 : Body: b''
+2024-05-25 20:19:32,882 DEBUG app Thread-76 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:32,882 DEBUG app Thread-75 : Body: b''
+2024-05-25 20:19:32,882 INFO werkzeug Thread-72 : 127.0.0.1 - - [25/May/2024 20:19:32] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:19:32,882 DEBUG app Thread-76 : Body: b''
+2024-05-25 20:19:32,883 INFO werkzeug Thread-74 : 127.0.0.1 - - [25/May/2024 20:19:32] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:32,883 INFO werkzeug Thread-75 : 127.0.0.1 - - [25/May/2024 20:19:32] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:19:32,884 INFO werkzeug Thread-73 : 127.0.0.1 - - [25/May/2024 20:19:32] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:32,885 INFO werkzeug Thread-76 : 127.0.0.1 - - [25/May/2024 20:19:32] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:42,891 DEBUG app Thread-77 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:42,892 DEBUG app Thread-78 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:42,892 DEBUG app Thread-79 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:42,893 DEBUG app Thread-80 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:42,893 DEBUG app Thread-77 : Body: b''
+2024-05-25 20:19:42,893 DEBUG app Thread-81 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:19:42,894 DEBUG app Thread-78 : Body: b''
+2024-05-25 20:19:42,894 DEBUG app Thread-79 : Body: b''
+2024-05-25 20:19:42,894 DEBUG app Thread-80 : Body: b''
+2024-05-25 20:19:42,894 DEBUG app Thread-81 : Body: b''
+2024-05-25 20:19:42,895 INFO werkzeug Thread-79 : 127.0.0.1 - - [25/May/2024 20:19:42] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:42,896 INFO werkzeug Thread-80 : 127.0.0.1 - - [25/May/2024 20:19:42] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:19:42,897 INFO werkzeug Thread-77 : 127.0.0.1 - - [25/May/2024 20:19:42] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:19:42,899 INFO werkzeug Thread-78 : 127.0.0.1 - - [25/May/2024 20:19:42] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:19:42,900 INFO werkzeug Thread-81 : 127.0.0.1 - - [25/May/2024 20:19:42] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:39,925 DEBUG app Thread-82 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:39,926 DEBUG app Thread-82 : Body: b''
+2024-05-25 20:20:39,927 INFO werkzeug Thread-82 : 127.0.0.1 - - [25/May/2024 20:20:39] "GET /meals/meals/22 HTTP/1.1" 200 -
+2024-05-25 20:20:45,840 DEBUG app Thread-83 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:45,841 DEBUG app Thread-84 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:45,841 DEBUG app Thread-83 : Body: b''
+2024-05-25 20:20:45,842 DEBUG app Thread-85 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:45,842 DEBUG app Thread-86 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:45,842 DEBUG app Thread-84 : Body: b''
+2024-05-25 20:20:45,843 DEBUG app Thread-87 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:45,844 DEBUG app Thread-87 : Body: b''
+2024-05-25 20:20:45,844 DEBUG app Thread-85 : Body: b''
+2024-05-25 20:20:45,844 DEBUG app Thread-86 : Body: b''
+2024-05-25 20:20:45,852 INFO werkzeug Thread-85 : 127.0.0.1 - - [25/May/2024 20:20:45] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:45,853 INFO werkzeug Thread-83 : 127.0.0.1 - - [25/May/2024 20:20:45] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:20:45,854 INFO werkzeug Thread-84 : 127.0.0.1 - - [25/May/2024 20:20:45] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:45,855 INFO werkzeug Thread-86 : 127.0.0.1 - - [25/May/2024 20:20:45] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:20:45,858 INFO werkzeug Thread-87 : 127.0.0.1 - - [25/May/2024 20:20:45] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:47,656 DEBUG app Thread-88 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:47,659 DEBUG app Thread-88 : Body: b''
+2024-05-25 20:20:47,662 INFO werkzeug Thread-88 : 127.0.0.1 - - [25/May/2024 20:20:47] "GET /meals/meals/23 HTTP/1.1" 200 -
+2024-05-25 20:20:52,538 DEBUG app Thread-89 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:52,538 DEBUG app Thread-93 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:52,539 DEBUG app Thread-92 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:52,539 DEBUG app Thread-89 : Body: b''
+2024-05-25 20:20:52,539 DEBUG app Thread-90 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:52,540 DEBUG app Thread-91 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:20:52,540 DEBUG app Thread-93 : Body: b''
+2024-05-25 20:20:52,540 DEBUG app Thread-92 : Body: b''
+2024-05-25 20:20:52,540 DEBUG app Thread-90 : Body: b''
+2024-05-25 20:20:52,540 DEBUG app Thread-91 : Body: b''
+2024-05-25 20:20:52,544 INFO werkzeug Thread-89 : 127.0.0.1 - - [25/May/2024 20:20:52] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:20:52,545 INFO werkzeug Thread-92 : 127.0.0.1 - - [25/May/2024 20:20:52] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:20:52,547 INFO werkzeug Thread-91 : 127.0.0.1 - - [25/May/2024 20:20:52] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:52,548 INFO werkzeug Thread-90 : 127.0.0.1 - - [25/May/2024 20:20:52] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:20:52,551 INFO werkzeug Thread-93 : 127.0.0.1 - - [25/May/2024 20:20:52] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:23:43,925 DEBUG app Thread-94 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:23:43,925 DEBUG app Thread-95 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:23:43,926 DEBUG app Thread-96 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:23:43,926 DEBUG app Thread-97 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:23:43,926 DEBUG app Thread-94 : Body: b''
+2024-05-25 20:23:43,926 DEBUG app Thread-98 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:23:43,926 DEBUG app Thread-95 : Body: b''
+2024-05-25 20:23:43,926 DEBUG app Thread-96 : Body: b''
+2024-05-25 20:23:43,927 DEBUG app Thread-97 : Body: b''
+2024-05-25 20:23:43,927 DEBUG app Thread-98 : Body: b''
+2024-05-25 20:23:43,927 INFO werkzeug Thread-94 : 127.0.0.1 - - [25/May/2024 20:23:43] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:23:43,928 INFO werkzeug Thread-96 : 127.0.0.1 - - [25/May/2024 20:23:43] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:23:43,928 INFO werkzeug Thread-97 : 127.0.0.1 - - [25/May/2024 20:23:43] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:23:43,929 INFO werkzeug Thread-95 : 127.0.0.1 - - [25/May/2024 20:23:43] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:23:43,933 INFO werkzeug Thread-98 : 127.0.0.1 - - [25/May/2024 20:23:43] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:25:44,934 DEBUG app Thread-99 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:25:44,934 DEBUG app Thread-101 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:25:44,934 DEBUG app Thread-102 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:25:44,934 DEBUG app Thread-100 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:25:44,935 DEBUG app Thread-103 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:25:44,935 DEBUG app Thread-99 : Body: b''
+2024-05-25 20:25:44,935 DEBUG app Thread-101 : Body: b''
+2024-05-25 20:25:44,935 DEBUG app Thread-102 : Body: b''
+2024-05-25 20:25:44,935 DEBUG app Thread-100 : Body: b''
+2024-05-25 20:25:44,935 DEBUG app Thread-103 : Body: b''
+2024-05-25 20:25:44,936 INFO werkzeug Thread-99 : 127.0.0.1 - - [25/May/2024 20:25:44] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:25:44,937 INFO werkzeug Thread-102 : 127.0.0.1 - - [25/May/2024 20:25:44] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:25:44,938 INFO werkzeug Thread-101 : 127.0.0.1 - - [25/May/2024 20:25:44] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:25:44,940 INFO werkzeug Thread-100 : 127.0.0.1 - - [25/May/2024 20:25:44] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:25:44,941 INFO werkzeug Thread-103 : 127.0.0.1 - - [25/May/2024 20:25:44] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:26:49,895 DEBUG app Thread-105 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:26:49,896 DEBUG app Thread-104 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:26:49,896 DEBUG app Thread-106 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:26:49,896 DEBUG app Thread-107 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:26:49,896 DEBUG app Thread-108 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:26:49,897 DEBUG app Thread-105 : Body: b''
+2024-05-25 20:26:49,897 DEBUG app Thread-104 : Body: b''
+2024-05-25 20:26:49,897 DEBUG app Thread-106 : Body: b''
+2024-05-25 20:26:49,897 DEBUG app Thread-107 : Body: b''
+2024-05-25 20:26:49,897 DEBUG app Thread-108 : Body: b''
+2024-05-25 20:26:49,898 INFO werkzeug Thread-104 : 127.0.0.1 - - [25/May/2024 20:26:49] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:26:49,899 INFO werkzeug Thread-106 : 127.0.0.1 - - [25/May/2024 20:26:49] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:26:49,899 INFO werkzeug Thread-107 : 127.0.0.1 - - [25/May/2024 20:26:49] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:26:49,900 INFO werkzeug Thread-105 : 127.0.0.1 - - [25/May/2024 20:26:49] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:26:49,906 INFO werkzeug Thread-108 : 127.0.0.1 - - [25/May/2024 20:26:49] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:29:43,913 DEBUG app Thread-109 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:29:43,914 DEBUG app Thread-110 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:29:43,914 DEBUG app Thread-111 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:29:43,914 DEBUG app Thread-109 : Body: b''
+2024-05-25 20:29:43,914 DEBUG app Thread-112 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:29:43,915 DEBUG app Thread-113 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:29:43,915 DEBUG app Thread-110 : Body: b''
+2024-05-25 20:29:43,915 DEBUG app Thread-111 : Body: b''
+2024-05-25 20:29:43,915 DEBUG app Thread-112 : Body: b''
+2024-05-25 20:29:43,915 DEBUG app Thread-113 : Body: b''
+2024-05-25 20:29:43,916 INFO werkzeug Thread-111 : 127.0.0.1 - - [25/May/2024 20:29:43] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:29:43,916 INFO werkzeug Thread-109 : 127.0.0.1 - - [25/May/2024 20:29:43] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:29:43,919 INFO werkzeug Thread-112 : 127.0.0.1 - - [25/May/2024 20:29:43] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:29:43,921 INFO werkzeug Thread-110 : 127.0.0.1 - - [25/May/2024 20:29:43] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:29:43,922 INFO werkzeug Thread-113 : 127.0.0.1 - - [25/May/2024 20:29:43] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 20:30:39,919 DEBUG app Thread-115 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:30:39,919 DEBUG app Thread-116 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:30:39,919 DEBUG app Thread-114 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:30:39,920 DEBUG app Thread-117 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:30:39,920 DEBUG app Thread-118 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 20:30:39,920 DEBUG app Thread-115 : Body: b''
+2024-05-25 20:30:39,920 DEBUG app Thread-116 : Body: b''
+2024-05-25 20:30:39,920 DEBUG app Thread-114 : Body: b''
+2024-05-25 20:30:39,920 DEBUG app Thread-117 : Body: b''
+2024-05-25 20:30:39,920 DEBUG app Thread-118 : Body: b''
+2024-05-25 20:30:39,921 INFO werkzeug Thread-114 : 127.0.0.1 - - [25/May/2024 20:30:39] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 20:30:39,921 INFO werkzeug Thread-116 : 127.0.0.1 - - [25/May/2024 20:30:39] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 20:30:39,922 INFO werkzeug Thread-117 : 127.0.0.1 - - [25/May/2024 20:30:39] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 20:30:39,926 INFO werkzeug Thread-115 : 127.0.0.1 - - [25/May/2024 20:30:39] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 20:30:39,927 INFO werkzeug Thread-118 : 127.0.0.1 - - [25/May/2024 20:30:39] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:01:26,981 DEBUG app Thread-119 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:01:26,982 DEBUG app Thread-120 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:01:26,982 DEBUG app Thread-119 : Body: b''
+2024-05-25 21:01:26,982 DEBUG app Thread-120 : Body: b''
+2024-05-25 21:01:26,982 DEBUG app Thread-121 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:01:26,983 DEBUG app Thread-122 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:01:26,983 DEBUG app Thread-123 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:01:26,983 DEBUG app Thread-121 : Body: b''
+2024-05-25 21:01:26,983 DEBUG app Thread-122 : Body: b''
+2024-05-25 21:01:26,983 DEBUG app Thread-123 : Body: b''
+2024-05-25 21:01:26,984 INFO werkzeug Thread-119 : 127.0.0.1 - - [25/May/2024 21:01:26] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:01:26,984 INFO werkzeug Thread-121 : 127.0.0.1 - - [25/May/2024 21:01:26] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:01:26,985 INFO werkzeug Thread-120 : 127.0.0.1 - - [25/May/2024 21:01:26] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:01:26,985 INFO werkzeug Thread-122 : 127.0.0.1 - - [25/May/2024 21:01:26] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:01:26,987 INFO werkzeug Thread-123 : 127.0.0.1 - - [25/May/2024 21:01:26] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:05,399 DEBUG app Thread-128 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:05,399 DEBUG app Thread-126 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:05,399 DEBUG app Thread-127 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:05,399 DEBUG app Thread-124 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:05,399 DEBUG app Thread-125 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:05,399 DEBUG app Thread-128 : Body: b''
+2024-05-25 21:02:05,399 DEBUG app Thread-126 : Body: b''
+2024-05-25 21:02:05,399 DEBUG app Thread-127 : Body: b''
+2024-05-25 21:02:05,399 DEBUG app Thread-124 : Body: b''
+2024-05-25 21:02:05,400 DEBUG app Thread-125 : Body: b''
+2024-05-25 21:02:05,400 INFO werkzeug Thread-126 : 127.0.0.1 - - [25/May/2024 21:02:05] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:05,401 INFO werkzeug Thread-124 : 127.0.0.1 - - [25/May/2024 21:02:05] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:02:05,402 INFO werkzeug Thread-127 : 127.0.0.1 - - [25/May/2024 21:02:05] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:02:05,403 INFO werkzeug Thread-125 : 127.0.0.1 - - [25/May/2024 21:02:05] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:05,403 INFO werkzeug Thread-128 : 127.0.0.1 - - [25/May/2024 21:02:05] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:15,794 DEBUG app Thread-129 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:15,795 DEBUG app Thread-130 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:15,795 DEBUG app Thread-129 : Body: b''
+2024-05-25 21:02:15,795 DEBUG app Thread-131 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:15,795 DEBUG app Thread-130 : Body: b''
+2024-05-25 21:02:15,796 DEBUG app Thread-132 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:15,796 DEBUG app Thread-131 : Body: b''
+2024-05-25 21:02:15,797 DEBUG app Thread-133 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:15,797 DEBUG app Thread-132 : Body: b''
+2024-05-25 21:02:15,798 INFO werkzeug Thread-129 : 127.0.0.1 - - [25/May/2024 21:02:15] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:02:15,798 DEBUG app Thread-133 : Body: b''
+2024-05-25 21:02:15,799 INFO werkzeug Thread-131 : 127.0.0.1 - - [25/May/2024 21:02:15] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:15,800 INFO werkzeug Thread-132 : 127.0.0.1 - - [25/May/2024 21:02:15] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:02:15,801 INFO werkzeug Thread-130 : 127.0.0.1 - - [25/May/2024 21:02:15] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:15,803 INFO werkzeug Thread-133 : 127.0.0.1 - - [25/May/2024 21:02:15] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:32,921 DEBUG app Thread-135 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:32,921 DEBUG app Thread-136 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:32,921 DEBUG app Thread-134 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:32,922 DEBUG app Thread-137 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:32,922 DEBUG app Thread-135 : Body: b''
+2024-05-25 21:02:32,922 DEBUG app Thread-138 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:02:32,922 DEBUG app Thread-136 : Body: b''
+2024-05-25 21:02:32,922 DEBUG app Thread-134 : Body: b''
+2024-05-25 21:02:32,923 DEBUG app Thread-137 : Body: b''
+2024-05-25 21:02:32,924 DEBUG app Thread-138 : Body: b''
+2024-05-25 21:02:32,926 INFO werkzeug Thread-136 : 127.0.0.1 - - [25/May/2024 21:02:32] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:32,927 INFO werkzeug Thread-137 : 127.0.0.1 - - [25/May/2024 21:02:32] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:02:32,928 INFO werkzeug Thread-134 : 127.0.0.1 - - [25/May/2024 21:02:32] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:02:32,929 INFO werkzeug Thread-135 : 127.0.0.1 - - [25/May/2024 21:02:32] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:02:32,930 INFO werkzeug Thread-138 : 127.0.0.1 - - [25/May/2024 21:02:32] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:03:54,953 DEBUG app Thread-140 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:03:54,954 DEBUG app Thread-143 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:03:54,954 DEBUG app Thread-139 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:03:54,954 DEBUG app Thread-141 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:03:54,954 DEBUG app Thread-142 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:03:54,955 DEBUG app Thread-140 : Body: b''
+2024-05-25 21:03:54,955 DEBUG app Thread-143 : Body: b''
+2024-05-25 21:03:54,955 DEBUG app Thread-139 : Body: b''
+2024-05-25 21:03:54,955 DEBUG app Thread-141 : Body: b''
+2024-05-25 21:03:54,955 DEBUG app Thread-142 : Body: b''
+2024-05-25 21:03:54,956 INFO werkzeug Thread-139 : 127.0.0.1 - - [25/May/2024 21:03:54] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:03:54,956 INFO werkzeug Thread-141 : 127.0.0.1 - - [25/May/2024 21:03:54] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:03:54,957 INFO werkzeug Thread-142 : 127.0.0.1 - - [25/May/2024 21:03:54] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:03:54,958 INFO werkzeug Thread-140 : 127.0.0.1 - - [25/May/2024 21:03:54] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:03:54,961 INFO werkzeug Thread-143 : 127.0.0.1 - - [25/May/2024 21:03:54] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:04:44,926 DEBUG app Thread-148 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:04:44,926 DEBUG app Thread-146 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:04:44,926 DEBUG app Thread-144 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:04:44,926 DEBUG app Thread-147 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:04:44,927 DEBUG app Thread-145 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:04:44,927 DEBUG app Thread-148 : Body: b''
+2024-05-25 21:04:44,927 DEBUG app Thread-146 : Body: b''
+2024-05-25 21:04:44,927 DEBUG app Thread-144 : Body: b''
+2024-05-25 21:04:44,927 DEBUG app Thread-147 : Body: b''
+2024-05-25 21:04:44,927 DEBUG app Thread-145 : Body: b''
+2024-05-25 21:04:44,927 INFO werkzeug Thread-146 : 127.0.0.1 - - [25/May/2024 21:04:44] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:04:44,928 INFO werkzeug Thread-144 : 127.0.0.1 - - [25/May/2024 21:04:44] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:04:44,929 INFO werkzeug Thread-147 : 127.0.0.1 - - [25/May/2024 21:04:44] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:04:44,930 INFO werkzeug Thread-145 : 127.0.0.1 - - [25/May/2024 21:04:44] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:04:44,930 INFO werkzeug Thread-148 : 127.0.0.1 - - [25/May/2024 21:04:44] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:10,336 DEBUG app Thread-152 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:10,337 DEBUG app Thread-151 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:10,337 DEBUG app Thread-149 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:10,337 DEBUG app Thread-152 : Body: b''
+2024-05-25 21:05:10,337 DEBUG app Thread-150 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:10,337 DEBUG app Thread-153 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:10,337 DEBUG app Thread-151 : Body: b''
+2024-05-25 21:05:10,337 DEBUG app Thread-149 : Body: b''
+2024-05-25 21:05:10,338 DEBUG app Thread-150 : Body: b''
+2024-05-25 21:05:10,338 DEBUG app Thread-153 : Body: b''
+2024-05-25 21:05:10,338 INFO werkzeug Thread-151 : 127.0.0.1 - - [25/May/2024 21:05:10] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:10,339 INFO werkzeug Thread-152 : 127.0.0.1 - - [25/May/2024 21:05:10] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:05:10,339 INFO werkzeug Thread-149 : 127.0.0.1 - - [25/May/2024 21:05:10] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:05:10,340 INFO werkzeug Thread-150 : 127.0.0.1 - - [25/May/2024 21:05:10] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:10,341 INFO werkzeug Thread-153 : 127.0.0.1 - - [25/May/2024 21:05:10] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:23,310 DEBUG app Thread-158 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:23,310 DEBUG app Thread-156 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:23,310 DEBUG app Thread-157 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:23,310 DEBUG app Thread-154 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:23,310 DEBUG app Thread-155 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:23,310 DEBUG app Thread-158 : Body: b''
+2024-05-25 21:05:23,311 DEBUG app Thread-156 : Body: b''
+2024-05-25 21:05:23,311 DEBUG app Thread-157 : Body: b''
+2024-05-25 21:05:23,311 DEBUG app Thread-154 : Body: b''
+2024-05-25 21:05:23,311 DEBUG app Thread-155 : Body: b''
+2024-05-25 21:05:23,312 INFO werkzeug Thread-156 : 127.0.0.1 - - [25/May/2024 21:05:23] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:23,312 INFO werkzeug Thread-154 : 127.0.0.1 - - [25/May/2024 21:05:23] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:05:23,313 INFO werkzeug Thread-157 : 127.0.0.1 - - [25/May/2024 21:05:23] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:05:23,314 INFO werkzeug Thread-155 : 127.0.0.1 - - [25/May/2024 21:05:23] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:23,315 INFO werkzeug Thread-158 : 127.0.0.1 - - [25/May/2024 21:05:23] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:42,342 DEBUG app Thread-159 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:42,342 DEBUG app Thread-160 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:42,343 DEBUG app Thread-161 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:42,343 DEBUG app Thread-159 : Body: b''
+2024-05-25 21:05:42,343 DEBUG app Thread-162 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:42,343 DEBUG app Thread-160 : Body: b''
+2024-05-25 21:05:42,343 DEBUG app Thread-163 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:42,343 DEBUG app Thread-161 : Body: b''
+2024-05-25 21:05:42,344 DEBUG app Thread-162 : Body: b''
+2024-05-25 21:05:42,344 DEBUG app Thread-163 : Body: b''
+2024-05-25 21:05:42,344 INFO werkzeug Thread-159 : 127.0.0.1 - - [25/May/2024 21:05:42] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:05:42,344 INFO werkzeug Thread-161 : 127.0.0.1 - - [25/May/2024 21:05:42] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:42,345 INFO werkzeug Thread-162 : 127.0.0.1 - - [25/May/2024 21:05:42] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:05:42,346 INFO werkzeug Thread-160 : 127.0.0.1 - - [25/May/2024 21:05:42] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:42,347 INFO werkzeug Thread-163 : 127.0.0.1 - - [25/May/2024 21:05:42] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:59,920 DEBUG app Thread-164 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:59,921 DEBUG app Thread-165 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:59,921 DEBUG app Thread-166 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:59,921 DEBUG app Thread-164 : Body: b''
+2024-05-25 21:05:59,921 DEBUG app Thread-165 : Body: b''
+2024-05-25 21:05:59,921 DEBUG app Thread-167 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:59,921 DEBUG app Thread-166 : Body: b''
+2024-05-25 21:05:59,922 DEBUG app Thread-168 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:05:59,922 DEBUG app Thread-167 : Body: b''
+2024-05-25 21:05:59,922 INFO werkzeug Thread-164 : 127.0.0.1 - - [25/May/2024 21:05:59] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:05:59,922 DEBUG app Thread-168 : Body: b''
+2024-05-25 21:05:59,923 INFO werkzeug Thread-166 : 127.0.0.1 - - [25/May/2024 21:05:59] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:59,923 INFO werkzeug Thread-167 : 127.0.0.1 - - [25/May/2024 21:05:59] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:05:59,924 INFO werkzeug Thread-165 : 127.0.0.1 - - [25/May/2024 21:05:59] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:05:59,925 INFO werkzeug Thread-168 : 127.0.0.1 - - [25/May/2024 21:05:59] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:08,571 DEBUG app Thread-169 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:08,571 DEBUG app Thread-170 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:08,571 DEBUG app Thread-169 : Body: b''
+2024-05-25 21:06:08,571 DEBUG app Thread-170 : Body: b''
+2024-05-25 21:06:08,571 DEBUG app Thread-171 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:08,572 DEBUG app Thread-172 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:08,572 DEBUG app Thread-173 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:08,572 DEBUG app Thread-171 : Body: b''
+2024-05-25 21:06:08,572 DEBUG app Thread-172 : Body: b''
+2024-05-25 21:06:08,572 DEBUG app Thread-173 : Body: b''
+2024-05-25 21:06:08,573 INFO werkzeug Thread-169 : 127.0.0.1 - - [25/May/2024 21:06:08] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:06:08,573 INFO werkzeug Thread-171 : 127.0.0.1 - - [25/May/2024 21:06:08] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:08,574 INFO werkzeug Thread-172 : 127.0.0.1 - - [25/May/2024 21:06:08] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:06:08,574 INFO werkzeug Thread-170 : 127.0.0.1 - - [25/May/2024 21:06:08] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:08,575 INFO werkzeug Thread-173 : 127.0.0.1 - - [25/May/2024 21:06:08] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:17,397 DEBUG app Thread-174 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:17,398 DEBUG app Thread-175 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:17,398 DEBUG app Thread-176 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:17,398 DEBUG app Thread-177 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:17,398 DEBUG app Thread-174 : Body: b''
+2024-05-25 21:06:17,398 DEBUG app Thread-178 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:17,398 DEBUG app Thread-175 : Body: b''
+2024-05-25 21:06:17,398 DEBUG app Thread-176 : Body: b''
+2024-05-25 21:06:17,399 DEBUG app Thread-177 : Body: b''
+2024-05-25 21:06:17,399 DEBUG app Thread-178 : Body: b''
+2024-05-25 21:06:17,399 INFO werkzeug Thread-174 : 127.0.0.1 - - [25/May/2024 21:06:17] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:06:17,400 INFO werkzeug Thread-176 : 127.0.0.1 - - [25/May/2024 21:06:17] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:17,400 INFO werkzeug Thread-177 : 127.0.0.1 - - [25/May/2024 21:06:17] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:06:17,401 INFO werkzeug Thread-175 : 127.0.0.1 - - [25/May/2024 21:06:17] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:17,402 INFO werkzeug Thread-178 : 127.0.0.1 - - [25/May/2024 21:06:17] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:42,545 DEBUG app Thread-179 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:42,546 DEBUG app Thread-180 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:42,546 DEBUG app Thread-179 : Body: b''
+2024-05-25 21:06:42,546 DEBUG app Thread-180 : Body: b''
+2024-05-25 21:06:42,546 DEBUG app Thread-181 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:42,547 DEBUG app Thread-182 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:42,547 DEBUG app Thread-181 : Body: b''
+2024-05-25 21:06:42,547 DEBUG app Thread-183 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:42,547 DEBUG app Thread-182 : Body: b''
+2024-05-25 21:06:42,547 INFO werkzeug Thread-179 : 127.0.0.1 - - [25/May/2024 21:06:42] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:06:42,548 DEBUG app Thread-183 : Body: b''
+2024-05-25 21:06:42,548 INFO werkzeug Thread-181 : 127.0.0.1 - - [25/May/2024 21:06:42] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:42,549 INFO werkzeug Thread-182 : 127.0.0.1 - - [25/May/2024 21:06:42] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:06:42,549 INFO werkzeug Thread-180 : 127.0.0.1 - - [25/May/2024 21:06:42] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:42,550 INFO werkzeug Thread-183 : 127.0.0.1 - - [25/May/2024 21:06:42] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:55,679 DEBUG app Thread-184 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:55,679 DEBUG app Thread-185 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:55,679 DEBUG app Thread-186 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:55,679 DEBUG app Thread-187 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:55,679 DEBUG app Thread-188 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:06:55,679 DEBUG app Thread-184 : Body: b''
+2024-05-25 21:06:55,679 DEBUG app Thread-185 : Body: b''
+2024-05-25 21:06:55,679 DEBUG app Thread-186 : Body: b''
+2024-05-25 21:06:55,680 DEBUG app Thread-187 : Body: b''
+2024-05-25 21:06:55,680 DEBUG app Thread-188 : Body: b''
+2024-05-25 21:06:55,680 INFO werkzeug Thread-186 : 127.0.0.1 - - [25/May/2024 21:06:55] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:55,681 INFO werkzeug Thread-184 : 127.0.0.1 - - [25/May/2024 21:06:55] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:06:55,681 INFO werkzeug Thread-187 : 127.0.0.1 - - [25/May/2024 21:06:55] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:06:55,682 INFO werkzeug Thread-185 : 127.0.0.1 - - [25/May/2024 21:06:55] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:06:55,683 INFO werkzeug Thread-188 : 127.0.0.1 - - [25/May/2024 21:06:55] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:04,339 DEBUG app Thread-189 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:04,339 DEBUG app Thread-191 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:04,339 DEBUG app Thread-190 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:04,339 DEBUG app Thread-192 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:04,339 DEBUG app Thread-189 : Body: b''
+2024-05-25 21:07:04,340 DEBUG app Thread-193 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:04,340 DEBUG app Thread-191 : Body: b''
+2024-05-25 21:07:04,340 DEBUG app Thread-190 : Body: b''
+2024-05-25 21:07:04,340 DEBUG app Thread-192 : Body: b''
+2024-05-25 21:07:04,340 DEBUG app Thread-193 : Body: b''
+2024-05-25 21:07:04,341 INFO werkzeug Thread-189 : 127.0.0.1 - - [25/May/2024 21:07:04] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:04,341 INFO werkzeug Thread-191 : 127.0.0.1 - - [25/May/2024 21:07:04] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:04,342 INFO werkzeug Thread-192 : 127.0.0.1 - - [25/May/2024 21:07:04] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:04,343 INFO werkzeug Thread-190 : 127.0.0.1 - - [25/May/2024 21:07:04] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:04,343 INFO werkzeug Thread-193 : 127.0.0.1 - - [25/May/2024 21:07:04] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:08,449 DEBUG app Thread-195 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:08,449 DEBUG app Thread-194 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:08,450 DEBUG app Thread-196 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:08,450 DEBUG app Thread-197 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:08,450 DEBUG app Thread-195 : Body: b''
+2024-05-25 21:07:08,450 DEBUG app Thread-198 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:08,450 DEBUG app Thread-194 : Body: b''
+2024-05-25 21:07:08,450 DEBUG app Thread-196 : Body: b''
+2024-05-25 21:07:08,450 DEBUG app Thread-197 : Body: b''
+2024-05-25 21:07:08,450 DEBUG app Thread-198 : Body: b''
+2024-05-25 21:07:08,451 INFO werkzeug Thread-194 : 127.0.0.1 - - [25/May/2024 21:07:08] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:08,451 INFO werkzeug Thread-196 : 127.0.0.1 - - [25/May/2024 21:07:08] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:08,452 INFO werkzeug Thread-197 : 127.0.0.1 - - [25/May/2024 21:07:08] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:08,453 INFO werkzeug Thread-195 : 127.0.0.1 - - [25/May/2024 21:07:08] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:08,454 INFO werkzeug Thread-198 : 127.0.0.1 - - [25/May/2024 21:07:08] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:16,875 DEBUG app Thread-199 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:16,875 DEBUG app Thread-200 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:16,875 DEBUG app Thread-202 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:16,875 DEBUG app Thread-201 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:16,875 DEBUG app Thread-199 : Body: b''
+2024-05-25 21:07:16,876 DEBUG app Thread-203 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:16,876 DEBUG app Thread-200 : Body: b''
+2024-05-25 21:07:16,876 DEBUG app Thread-202 : Body: b''
+2024-05-25 21:07:16,876 DEBUG app Thread-201 : Body: b''
+2024-05-25 21:07:16,876 DEBUG app Thread-203 : Body: b''
+2024-05-25 21:07:16,876 INFO werkzeug Thread-199 : 127.0.0.1 - - [25/May/2024 21:07:16] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:16,877 INFO werkzeug Thread-202 : 127.0.0.1 - - [25/May/2024 21:07:16] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:16,877 INFO werkzeug Thread-201 : 127.0.0.1 - - [25/May/2024 21:07:16] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:16,879 INFO werkzeug Thread-200 : 127.0.0.1 - - [25/May/2024 21:07:16] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:16,879 INFO werkzeug Thread-203 : 127.0.0.1 - - [25/May/2024 21:07:16] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:22,983 DEBUG app Thread-204 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:22,983 DEBUG app Thread-206 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:22,984 DEBUG app Thread-207 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:22,984 DEBUG app Thread-205 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:22,984 DEBUG app Thread-204 : Body: b''
+2024-05-25 21:07:22,984 DEBUG app Thread-208 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:22,984 DEBUG app Thread-206 : Body: b''
+2024-05-25 21:07:22,984 DEBUG app Thread-207 : Body: b''
+2024-05-25 21:07:22,984 DEBUG app Thread-205 : Body: b''
+2024-05-25 21:07:22,984 DEBUG app Thread-208 : Body: b''
+2024-05-25 21:07:22,985 INFO werkzeug Thread-206 : 127.0.0.1 - - [25/May/2024 21:07:22] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:22,985 INFO werkzeug Thread-204 : 127.0.0.1 - - [25/May/2024 21:07:22] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:22,986 INFO werkzeug Thread-207 : 127.0.0.1 - - [25/May/2024 21:07:22] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:22,987 INFO werkzeug Thread-205 : 127.0.0.1 - - [25/May/2024 21:07:22] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:22,988 INFO werkzeug Thread-208 : 127.0.0.1 - - [25/May/2024 21:07:22] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:32,639 DEBUG app Thread-209 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:32,639 DEBUG app Thread-210 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:32,640 DEBUG app Thread-211 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:32,640 DEBUG app Thread-209 : Body: b''
+2024-05-25 21:07:32,640 DEBUG app Thread-212 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:32,640 DEBUG app Thread-210 : Body: b''
+2024-05-25 21:07:32,640 DEBUG app Thread-213 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:32,640 DEBUG app Thread-211 : Body: b''
+2024-05-25 21:07:32,640 DEBUG app Thread-212 : Body: b''
+2024-05-25 21:07:32,641 DEBUG app Thread-213 : Body: b''
+2024-05-25 21:07:32,641 INFO werkzeug Thread-211 : 127.0.0.1 - - [25/May/2024 21:07:32] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:32,641 INFO werkzeug Thread-209 : 127.0.0.1 - - [25/May/2024 21:07:32] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:32,642 INFO werkzeug Thread-212 : 127.0.0.1 - - [25/May/2024 21:07:32] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:32,643 INFO werkzeug Thread-210 : 127.0.0.1 - - [25/May/2024 21:07:32] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:32,644 INFO werkzeug Thread-213 : 127.0.0.1 - - [25/May/2024 21:07:32] "GET /meals/meals_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:39,090 DEBUG app Thread-217 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:39,090 DEBUG app Thread-215 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:39,090 DEBUG app Thread-216 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:39,090 DEBUG app Thread-214 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:39,090 DEBUG app Thread-217 : Body: b''
+2024-05-25 21:07:39,090 DEBUG app Thread-218 : Headers: Host: 127.0.0.1:5000
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="124", "Brave";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Gpc: 1
+Accept-Language: en-GB,en
+Origin: http://localhost:4200
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:4200/
+Accept-Encoding: gzip, deflate, br, zstd
+
+
+2024-05-25 21:07:39,091 DEBUG app Thread-215 : Body: b''
+2024-05-25 21:07:39,091 DEBUG app Thread-216 : Body: b''
+2024-05-25 21:07:39,091 DEBUG app Thread-214 : Body: b''
+2024-05-25 21:07:39,091 DEBUG app Thread-218 : Body: b''
+2024-05-25 21:07:39,091 INFO werkzeug Thread-217 : 127.0.0.1 - - [25/May/2024 21:07:39] "GET /users/weights/1 HTTP/1.1" 200 -
+2024-05-25 21:07:39,092 INFO werkzeug Thread-214 : 127.0.0.1 - - [25/May/2024 21:07:39] "GET /users/bmr/1 HTTP/1.1" 200 -
+2024-05-25 21:07:39,092 INFO werkzeug Thread-216 : 127.0.0.1 - - [25/May/2024 21:07:39] "GET /users/weights/today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:39,093 INFO werkzeug Thread-215 : 127.0.0.1 - - [25/May/2024 21:07:39] "GET /users/macros_today/1 HTTP/1.1" 200 -
+2024-05-25 21:07:39,094 INFO werkzeug Thread-218 : 127.0.0.1 - - [25/May/2024 21:07:39] "GET /meals/meals_today/1 HTTP/1.1" 200 -
