@@ -40,3 +40,16 @@ SELECT_MEAL_BY_ID = """
 SELECT Id, USER_Id, CreationDate, CreationTime, HourPeriod, Title, Score FROM USR_MEAL
 WHERE Id = ?;
 """
+
+SELECT_USER_MEALS_PAGINATED = """
+SELECT Id, USER_Id, Title, Score, CreationDate, CreationTime, HourPeriod
+FROM USR_MEAL
+WHERE USER_Id = ?
+ORDER BY datetime(CreationDate || ' ' || CreationTime) DESC
+"""
+
+SELECT_TOTAL_MEALS_COUNT = """
+SELECT COUNT(*)
+FROM USR_MEAL
+WHERE USER_Id = ?
+"""

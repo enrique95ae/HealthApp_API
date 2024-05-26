@@ -3,7 +3,7 @@ import sqlite3
 from datetime import datetime
 from Foods.mealsQueries import (
     CREATE_USR_MEAL_TABLE, CREATE_MEAL_FOODS_TABLE, SELECT_MEAL_BY_ID,
-    SELECT_MEALS_BY_USER_TODAY, SELECT_FOODS_BY_MEAL
+    SELECT_MEALS_BY_USER_TODAY, SELECT_FOODS_BY_MEAL, SELECT_USER_MEALS_PAGINATED, SELECT_TOTAL_MEALS_COUNT
 )
 
 meals_bp = Blueprint('meals', __name__)
@@ -31,6 +31,12 @@ def fetch_query(query, args=()):
 def initialize_database():
     execute_query(CREATE_USR_MEAL_TABLE)
     execute_query(CREATE_MEAL_FOODS_TABLE)
+
+# Pagination helper function
+def paginate_query(base_query, page, page_size, args=()):
+    offset = (page - 1) * page_size
+    paginated_query = base_query + " LIMIT ? OFFSET ?"
+    return fetch_query(paginated_query, args + (page_size, offset))
 
 @meals_bp.route('/usr_meals', methods=['POST'])
 def add_usr_meal():
@@ -150,6 +156,58 @@ def get_meal_by_id(meal_id):
     
     meal_details['Foods'] = foods_list
     return jsonify(meal_details)
+
+@meals_bp.route('/user_meals/<int:user_id>', methods=['GET'])
+def get_user_meals(user_id):
+    page = request.args.get('page', default=1, type=int)
+    page_size = request.args.get('page_size', default=10, type=int)
+
+    # Get the total count of meals for the user
+    total_meals = fetch_query(SELECT_TOTAL_MEALS_COUNT, (user_id,))[0][0]
+    total_pages = (total_meals + page_size - 1) // page_size
+
+    meals = paginate_query(SELECT_USER_MEALS_PAGINATED, page, page_size, (user_id,))
+    
+    items = []
+    for meal in meals:
+        meal_id = meal[0]
+        meal_details = {
+            'Id': meal_id,
+            'Title': meal[2],
+            'Score': meal[3],
+            'CreationDate': meal[4],
+            'CreationTime': f"{meal[5]} {meal[6]}",
+            'Foods': []
+        }
+        
+        # Fetch foods for the meal
+        foods = fetch_query(SELECT_FOODS_BY_MEAL, (meal_id,))
+        for food in foods:
+            food_details = {
+                'Id': food[0],
+                'Name': food[1],
+                'PortionSize': food[2],
+                'Calories': food[3],
+                'TotalFat': food[4],
+                'SaturatedFat': food[5],
+                'Sodium': food[6],
+                'TotalCarbs': food[7],
+                'DietaryFiber': food[8],
+                'Sugars': food[9],
+                'Proteins': food[10],
+                'Cholesterol': food[11],
+                'PortionEaten': food[12]
+            }
+            meal_details['Foods'].append(food_details)
+        
+        items.append(meal_details)
+    
+    response = {
+        'items': items,
+        'totalPages': total_pages
+    }
+    
+    return jsonify(response)
 
 # Initialize the database when the module is imported
 initialize_database()
