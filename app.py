@@ -4,12 +4,14 @@ from flask_cors import CORS
 from Foods.foods import foods_bp
 from Users.users import users_bp
 from Foods.meals import meals_bp
+from CaloricIntake.caloricIntake import caloric_intake_bp
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 app.register_blueprint(foods_bp, url_prefix='/foods')
 app.register_blueprint(users_bp, url_prefix='/users')
 app.register_blueprint(meals_bp, url_prefix='/meals')
+app.register_blueprint(caloric_intake_bp, url_prefix='/users')
 
 # Configure logging
 logging.basicConfig(filename='app.log', level=logging.DEBUG,
