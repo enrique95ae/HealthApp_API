@@ -63,11 +63,16 @@ SELECT w.Id, w.Title, w.Color, w.Type, w.Description,
        e.Id, e.Name, e.Type, e.Muscle, e.Equipment, e.Difficulty, e.Instructions,
        es.Sets, es.Reps, es.SetOrder
 FROM WORKOUTS w
-JOIN WORKOUT_EXERCISE_SETS wes ON w.Id = wes.Workout_Id
-JOIN EXERCISES e ON wes.Exercise_Id = e.Id
-JOIN EXERCISE_SETS es ON e.Id = es.Exercise_Id
+LEFT JOIN WORKOUT_EXERCISE_SETS wes ON w.Id = wes.Workout_Id
+LEFT JOIN EXERCISES e ON wes.Exercise_Id = e.Id
+LEFT JOIN EXERCISE_SETS es ON e.Id = es.Exercise_Id
 WHERE w.Id = ?
 ORDER BY es.SetOrder;
+"""
+
+INSERT_WORKOUT_EXERCISE_SET = """
+INSERT INTO WORKOUT_EXERCISE_SETS (Workout_Id, Exercise_Id)
+VALUES (?, ?);
 """
 
 DROP_DATE_TIME_COLUMNS = [

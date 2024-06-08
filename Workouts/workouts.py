@@ -75,11 +75,20 @@ def get_exercise_by_id(id):
 @workouts_bp.route('/exercises', methods=['POST'])
 def add_exercise():
     data = request.get_json()
-    execute_query(INSERT_EXERCISE, (
+    exercise_id = execute_query(INSERT_EXERCISE, (
         data['Name'], data['Type'], data['Muscle'], data['Equipment'],
         data['Difficulty'], data['Instructions']
     ))
-    return jsonify({"message": "Exercise added successfully!"}), 201
+    created_exercise = {
+        'Id': exercise_id,
+        'Name': data['Name'],
+        'Type': data['Type'],
+        'Muscle': data['Muscle'],
+        'Equipment': data['Equipment'],
+        'Difficulty': data['Difficulty'],
+        'Instructions': data['Instructions']
+    }
+    return jsonify(created_exercise), 201
 
 @workouts_bp.route('/exercise_sets', methods=['GET'])
 def get_exercise_sets():
@@ -115,10 +124,30 @@ def get_exercise_set_by_id(id):
 @workouts_bp.route('/exercise_sets', methods=['POST'])
 def add_exercise_set():
     data = request.get_json()
-    execute_query(INSERT_EXERCISE_SET, (
-        data['Exercise_Id'], data['Sets'], data['Reps'], data['SetOrder']
+    exercise_set_id = execute_query(INSERT_EXERCISE_SET, (
+        data['Exercise_Id'], data['Sets'], data['Reps'], data['Order']  # Use 'Order' here
     ))
-    return jsonify({"message": "Exercise set added successfully!"}), 201
+    created_exercise_set = {
+        'Id': exercise_set_id,
+        'Exercise_Id': data['Exercise_Id'],
+        'Sets': data['Sets'],
+        'Reps': data['Reps'],
+        'SetOrder': data['Order']  # Use 'Order' here
+    }
+    return jsonify(created_exercise_set), 201
+
+@workouts_bp.route('/workout_exercise_sets', methods=['POST'])
+def add_workout_exercise_set():
+    data = request.get_json()
+    workout_exercise_set_id = execute_query(INSERT_WORKOUT_EXERCISE_SET, (
+        data['Workout_Id'], data['Exercise_Id']
+    ))
+    created_workout_exercise_set = {
+        'Id': workout_exercise_set_id,
+        'Workout_Id': data['Workout_Id'],
+        'Exercise_Id': data['Exercise_Id']
+    }
+    return jsonify(created_workout_exercise_set), 201
 
 @workouts_bp.route('/workouts', methods=['GET'])
 def get_workouts():
@@ -154,10 +183,17 @@ def get_workout_by_id(id):
 @workouts_bp.route('/workouts', methods=['POST'])
 def add_workout():
     data = request.get_json()
-    execute_query(INSERT_WORKOUT, (
+    workout_id = execute_query(INSERT_WORKOUT, (
         data['Title'], data['Color'], data['Type'], data['Description']
     ))
-    return jsonify({"message": "Workout added successfully!"}), 201
+    created_workout = {
+        'Id': workout_id,
+        'Title': data['Title'],
+        'Color': data['Color'],
+        'Type': data['Type'],
+        'Description': data['Description']
+    }
+    return jsonify(created_workout), 201
 
 @workouts_bp.route('/workouts/<int:id>', methods=['PUT'])
 def update_workout(id):
@@ -229,7 +265,9 @@ def get_workout_details(workout_id):
             'Reps': row[13],
             'SetOrder': row[14]
         }
-        workout['Exercises'].append(exercise)
+        # Append only if the exercise ID is not None
+        if exercise['Id'] is not None:
+            workout['Exercises'].append(exercise)
     
     return jsonify(workout)
 
