@@ -10,7 +10,7 @@ from Users.usersQueries import (
 
 users_bp = Blueprint('users', __name__)
 
-# Function to execute SQL queries
+
 def execute_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -18,7 +18,7 @@ def execute_query(query, args=()):
     conn.commit()
     conn.close()
 
-# Function to fetch data from the database
+
 def fetch_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -27,7 +27,7 @@ def fetch_query(query, args=()):
     conn.close()
     return rows
 
-# Initialize the database
+
 def initialize_database():
     execute_query(CREATE_USERS_TABLE)
     execute_query(CREATE_USER_WEIGHT_TABLE)
@@ -58,12 +58,12 @@ def add_user():
     data = request.get_json()
     username = data['Username']
 
-    # Check for duplicate user by username
+    
     duplicate_user = fetch_query(SELECT_USER_BY_USERNAME, (username,))
     if duplicate_user:
         return jsonify({"error": "User with the same username already exists!"}), 409
 
-    # Hash the password before storing
+    
     hashed_password = generate_password_hash(data['Password'], method='pbkdf2:sha256')
 
     execute_query(INSERT_USER, (
@@ -101,7 +101,7 @@ def update_user_by_id(id):
         data['BodyType'], data['Goal'], data['Gender'], id
     ))
     
-    # Fetch the updated user details
+    
     rows = fetch_query(SELECT_USER_BY_ID, (id,))
     if rows:
         row = rows[0]
@@ -130,14 +130,14 @@ def login_user():
     username = data['Username']
     password = data['Password']
 
-    # Fetch user by username
+    
     user = fetch_query(SELECT_USER_BY_USERNAME, (username,))
     if not user:
         return jsonify({"error": "Invalid username or password"}), 401
 
     user = user[0]
-    # Check the password
-    if check_password_hash(user[8], password):  # Assuming password is the 9th column
+    
+    if check_password_hash(user[8], password):  
         user_data = {
             'Id': user[0],
             'Name': user[1],
@@ -153,7 +153,7 @@ def login_user():
     else:
         return jsonify({"error": "Invalid username or password"}), 401
 
-# Weight-related endpoints
+
 @users_bp.route('/weights', methods=['POST'])
 def add_user_weight():
     data = request.get_json()
@@ -162,7 +162,7 @@ def add_user_weight():
     entry_date = datetime.now().strftime("%Y-%m-%d")
 
     execute_query(INSERT_USER_WEIGHT, (user_id, entry_date, weight))
-    execute_query(UPDATE_USER_WEIGHT, (weight, user_id))  # Update user's weight in USERS table
+    execute_query(UPDATE_USER_WEIGHT, (weight, user_id))  
 
     return jsonify({"message": "Weight entry added successfully!"}), 201
 
@@ -187,5 +187,5 @@ def check_weight_today(user_id):
     weight_entered = result[0][0] > 0
     return jsonify({"date": today_date, "weight_entered": weight_entered})
 
-# Initialize the database when the module is imported
+
 initialize_database()

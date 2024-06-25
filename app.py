@@ -8,7 +8,7 @@ from Workouts.workouts import workouts_bp
 from CaloricIntake.caloricIntake import caloric_intake_bp
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  
 app.register_blueprint(foods_bp, url_prefix='/foods')
 app.register_blueprint(users_bp, url_prefix='/users')
 app.register_blueprint(meals_bp, url_prefix='/meals')
@@ -16,7 +16,7 @@ app.register_blueprint(caloric_intake_bp, url_prefix='/users')
 app.register_blueprint(workouts_bp, url_prefix='/workouts')
 
 
-# Configure logging
+
 logging.basicConfig(filename='app.log', level=logging.DEBUG,
                     format='%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 

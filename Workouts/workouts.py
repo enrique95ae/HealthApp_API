@@ -11,7 +11,7 @@ from .workoutsQueries import (
 
 workouts_bp = Blueprint('workouts', __name__)
 
-# Function to execute SQL queries
+
 def execute_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -21,7 +21,7 @@ def execute_query(query, args=()):
     conn.close()
     return last_row_id
 
-# Function to fetch data from the database
+
 def fetch_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -30,7 +30,7 @@ def fetch_query(query, args=()):
     conn.close()
     return rows
 
-# Initialize the database
+
 def initialize_database():
     execute_query(CREATE_EXERCISES_TABLE)
     execute_query(CREATE_EXERCISE_SETS_TABLE)
@@ -125,14 +125,14 @@ def get_exercise_set_by_id(id):
 def add_exercise_set():
     data = request.get_json()
     exercise_set_id = execute_query(INSERT_EXERCISE_SET, (
-        data['Exercise_Id'], data['Sets'], data['Reps'], data['Order']  # Use 'Order' here
+        data['Exercise_Id'], data['Sets'], data['Reps'], data['Order']  
     ))
     created_exercise_set = {
         'Id': exercise_set_id,
         'Exercise_Id': data['Exercise_Id'],
         'Sets': data['Sets'],
         'Reps': data['Reps'],
-        'SetOrder': data['Order']  # Use 'Order' here
+        'SetOrder': data['Order']  
     }
     return jsonify(created_exercise_set), 201
 
@@ -265,11 +265,11 @@ def get_workout_details(workout_id):
             'Reps': row[13],
             'SetOrder': row[14]
         }
-        # Append only if the exercise ID is not None
+        
         if exercise['Id'] is not None:
             workout['Exercises'].append(exercise)
     
     return jsonify(workout)
 
-# Initialize the database when the module is imported
+
 initialize_database()

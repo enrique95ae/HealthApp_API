@@ -41,4 +41,3 @@ SELECT Id, Name FROM FOODS
 WHERE Name LIKE ?;
 """
 
-

@@ -8,7 +8,7 @@ from Foods.foodsQueries import (
 
 foods_bp = Blueprint('foods', __name__)
 
-# Function to execute SQL queries
+
 def execute_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -16,7 +16,7 @@ def execute_query(query, args=()):
     conn.commit()
     conn.close()
 
-# Function to fetch data from the database
+
 def fetch_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -25,7 +25,7 @@ def fetch_query(query, args=()):
     conn.close()
     return rows
 
-# Initialize the database
+
 def initialize_database():
     execute_query(CREATE_FOODS_TABLE)
 
@@ -58,12 +58,12 @@ def add_food():
     data = request.get_json()
     name = data['Name']
 
-    # Check for duplicate food by name
+    
     duplicate_food = fetch_query(CHECK_DUPLICATE_FOOD, (name,))
     if duplicate_food:
         return jsonify({"error": "Food with the same name already exists!"}), 409
 
-    # Convert Sodium and Cholesterol from mg to g before storing
+    
     sodium_in_g = data['Sodium'] / 1000
     cholesterol_in_g = data['Cholesterol'] / 1000
 
@@ -126,7 +126,7 @@ def get_food_by_name(name):
 def update_food_by_id(id):
     data = request.get_json()
 
-    # Convert Sodium and Cholesterol from mg to g before storing
+    
     sodium_in_g = data['Sodium'] / 1000
     cholesterol_in_g = data['Cholesterol'] / 1000
 
@@ -148,5 +148,5 @@ def search_foods():
     else:
         return jsonify({"message": "No search query provided"}), 400
 
-# Initialize the database when the module is imported
+
 initialize_database()

@@ -8,7 +8,7 @@ from Foods.mealsQueries import (
 
 meals_bp = Blueprint('meals', __name__)
 
-# Function to execute SQL queries
+
 def execute_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -18,7 +18,7 @@ def execute_query(query, args=()):
     conn.close()
     return last_row_id
 
-# Function to fetch data from the database
+
 def fetch_query(query, args=()):
     conn = sqlite3.connect('database.db')
     cur = conn.cursor()
@@ -27,12 +27,12 @@ def fetch_query(query, args=()):
     conn.close()
     return rows
 
-# Initialize the database
+
 def initialize_database():
     execute_query(CREATE_USR_MEAL_TABLE)
     execute_query(CREATE_MEAL_FOODS_TABLE)
 
-# Pagination helper function
+
 def paginate_query(base_query, page, page_size, args=()):
     offset = (page - 1) * page_size
     paginated_query = base_query + " LIMIT ? OFFSET ?"
@@ -45,7 +45,7 @@ def add_usr_meal():
     creation_date = datetime.now().strftime("%Y-%m-%d")
     creation_time_period = data['CreationTime']
     
-    # Parse the time and period from the provided string
+    
     creation_time = datetime.strptime(creation_time_period, "%I:%M%p").strftime("%I:%M")
     hour_period = datetime.strptime(creation_time_period, "%I:%M%p").strftime("%p")
 
@@ -68,21 +68,21 @@ def add_meal_food():
 
 @meals_bp.route('/meals_today/<int:user_id>', methods=['GET'])
 def get_meals_today(user_id):
-    # Compute the current date in YYYY-MM-DD format
+    
     today_date = datetime.now().strftime("%Y-%m-%d")
 
-    # Fetch meals for the user for today
+    
     meals = fetch_query(SELECT_MEALS_BY_USER_TODAY, (user_id, today_date + '%'))
-    print(f"Meals for user {user_id} today: {meals}")  # Debug print
+    print(f"Meals for user {user_id} today: {meals}")  
     
     meals_list = []
     for meal in meals:
         meal_id, creation_date, creation_time, hour_period, title, score = meal
-        # Format CreationTime to include HourPeriod
+        
         formatted_creation_time = f"{creation_time} {hour_period}"
-        # Fetch foods for each meal
+        
         foods = fetch_query(SELECT_FOODS_BY_MEAL, (meal_id,))
-        print(f"Foods for meal {meal_id}: {foods}")  # Debug print
+        print(f"Foods for meal {meal_id}: {foods}")  
         
         foods_list = []
         for food in foods:
@@ -117,9 +117,9 @@ def get_meals_today(user_id):
 
 @meals_bp.route('/meals/<int:meal_id>', methods=['GET'])
 def get_meal_by_id(meal_id):
-    # Fetch the meal details
+    
     meal = fetch_query(SELECT_MEAL_BY_ID, (meal_id,))
-    print(f"Meal details for meal {meal_id}: {meal}")  # Debug print
+    print(f"Meal details for meal {meal_id}: {meal}")  
     if not meal:
         return jsonify({"message": "Meal not found"}), 404
     
@@ -128,12 +128,12 @@ def get_meal_by_id(meal_id):
         'Id': meal[0],
         'USER_Id': meal[1],
         'CreationDate': meal[2],
-        'CreationTime': f"{meal[3]} {meal[4]}",  # Append HourPeriod to CreationTime
+        'CreationTime': f"{meal[3]} {meal[4]}",  
         'Title': meal[5],
         'Score': meal[6]
     }
     
-    # Fetch foods for the meal
+    
     foods = fetch_query(SELECT_FOODS_BY_MEAL, (meal_id,))
     foods_list = []
     for food in foods:
@@ -162,7 +162,7 @@ def get_user_meals(user_id):
     page = request.args.get('page', default=1, type=int)
     page_size = request.args.get('page_size', default=10, type=int)
 
-    # Get the total count of meals for the user
+    
     total_meals = fetch_query(SELECT_TOTAL_MEALS_COUNT, (user_id,))[0][0]
     total_pages = (total_meals + page_size - 1) // page_size
 
@@ -180,7 +180,7 @@ def get_user_meals(user_id):
             'Foods': []
         }
         
-        # Fetch foods for the meal
+        
         foods = fetch_query(SELECT_FOODS_BY_MEAL, (meal_id,))
         for food in foods:
             food_details = {
@@ -209,5 +209,5 @@ def get_user_meals(user_id):
     
     return jsonify(response)
 
-# Initialize the database when the module is imported
+
 initialize_database()
