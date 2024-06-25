@@ -1,7 +1,7 @@
 import sqlite3
 from datetime import datetime
 
-DATABASE = 'database.db'  # Ensure this path is correct
+DATABASE = 'database.db'  
 
 def fetch_query(query, args=()):
     conn = sqlite3.connect(DATABASE)
@@ -39,14 +39,14 @@ def calculateUserBMR(user_id):
     
     if gender == 'male':
         bmr = 66.47 + (13.75 * weight) + (5.003 * height) - (6.755 * age)
-    else:  # female
+    else:  
         bmr = 655.1 + (9.563 * weight) + (1.850 * height) - (4.676 * age)
     
     if goal == 'lose weight':
         bmr -= 500
     elif goal == 'gain muscle':
         bmr += 500
-    # No adjustment needed for 'maintain'
+    
 
     return round(bmr)
 
